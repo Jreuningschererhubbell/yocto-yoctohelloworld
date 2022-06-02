@@ -5,7 +5,7 @@
 AC_INIT(YoctoHelloWorldApp, 1.0, jreuning-scherer@hubbell.com)
 AC_CONFIG_SRCDIR([HelloWorld.c])
 AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(YoctoHelloWorldApp, main)
+AM_INIT_AUTOMAKE(YoctoHelloWorldApp, main) 
 
 # Checks for programs.
 AC_PROG_CC
